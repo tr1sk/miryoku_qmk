@@ -9,3 +9,15 @@ jobs:
     uses: ./.github/workflows/main.yml
     with:
       keyboard: '["crkbd"]'
+      alphas: '[
+        "qwerty"
+      ]'
+      nav: '[
+        "invertedt"
+      ]'
+      clipboard: '[
+        "win"
+      ]'
+      layers: '[
+        "flip"
+      ]'
